@@ -1,7 +1,9 @@
 # 💳  CREDITS 💳
 
 DEV                  : uhq.s
+
 OWNER OF THE PROJECT : uhq.s
+
 IDEA                 : uhq.s
 
 
