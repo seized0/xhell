@@ -1,3 +1,8 @@
+# 🚨 DISCLAIMER 🚨
+
+Open source project no viruses.
+
+
 # 💳  CREDITS 💳
 
 DEV                  : uhq.s
@@ -30,6 +35,7 @@ DISCORD SERVER : https://discord.gg/wyUuYr9DEN
 5. ACCOUNT NUKER     : To nuke an account
 6. HWID SPOOFER      : To change your HWID permanently
 7. To change your UUID permanently
+
 
 
 
