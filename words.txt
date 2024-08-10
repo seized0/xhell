@@ -1,0 +1,12 @@
+script
+build
+api
+admin
+panel
+dev
+developpement
+tool
+app
+application
+login
+register
