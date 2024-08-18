@@ -49,15 +49,15 @@ DISCORD SERVER : https://discord.gg/wyUuYr9DEN
 
 **REMOVED**
 
--HWID SPOOFER (reason : don't work)
--UUID SPOOFER (reason : don't work)
+- HWID SPOOFER (reason : don't work)
+- UUID SPOOFER (reason : don't work)
 
 
 **ADDED**
 
--IPLOOKUP
--PHONELOOKUP
--USERNAME SEARCHER
--STATUS ROTATOR
--ID TO TOKEN
+- IPLOOKUP
+- PHONELOOKUP
+- USERNAME SEARCHER
+- STATUS ROTATOR
+- ID TO TOKEN
 
