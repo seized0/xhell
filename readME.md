@@ -1,3 +1,9 @@
+<p align="center"> 
+  <kbd>
+<img src="https://media.discordapp.net/attachments/1273029746103554092/1274682475704221766/Capture_decran_2024-08-18_115941.png?ex=66c32410&is=66c1d290&hm=261a052929504367d82737ea23d27b98b7f601e65c6eeb06297cf7218004e2c9&=&format=webp&quality=lossless"></img>
+  </kbd>
+</p>
+
 # 🚨 DISCLAIMER 🚨
 
 **I AM NOT RESPONSIBLE FOR YOUR ACTIONS.**
