@@ -1,5 +1,5 @@
 from utilities.Program.utils.utils import *
-
+import requests
  
 # DOC : https://developer.mozilla.org/fr/docs/Web/HTTP/Status
 ################################################################
@@ -16,6 +16,17 @@ red = Fore.RED
 magenta = Fore.MAGENTA
 blue = Fore.BLUE
 reset = Fore.WHITE
+lmagenta = Fore.LIGHTMAGENTA_EX
+################################################################
+
+            # discord : uhq.s
+            # tiktok  : https://tiktok.com/@uhq.s
+            # server  : https://discord.gg/wyUuYr9DEN
+            # dev     : uhq.s
+            # owner   : uhq.s
+
+################################################################
+
 
 banner = lmagenta + r"""
 
@@ -42,7 +53,7 @@ banner = lmagenta + r"""
 async def subdomainfinder():
     os.system('cls')
     print(banner)
-    ask = input('URL : ').rstrip('/')
+    ask = input('[?] URL : ').rstrip('/')
 
     with open('words.txt', 'r') as f:  # CHANGE words.txt IF YOU HAVE YOUR OWN WORDLIST  CHANGE words.txt SI TU AS TA PROPRE WORDLIST
         keywords = [line.strip() for line in f]

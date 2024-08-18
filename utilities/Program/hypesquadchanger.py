@@ -1,7 +1,6 @@
-import time
+from utilities.Program.utils.utils import *
+import seizcord
 import requests
-from colorama import Fore
-import os
 
 green = Fore.GREEN
 red = Fore.RED
@@ -12,11 +11,21 @@ lmagenta = Fore.LIGHTMAGENTA_EX
 lred = Fore.LIGHTRED_EX
 yellow = Fore.YELLOW
 lgreen = Fore.LIGHTGREEN_EX
+cyan = Fore.CYAN
 
+################################################################
+
+            # discord : uhq.s
+            # tiktok  : https://tiktok.com/@uhq.s
+            # server  : https://discord.gg/wyUuYr9DEN
+            # dev     : uhq.s
+            # owner   : uhq.s
+
+################################################################
 
 async def hypesquadchanger():
     os.system('cls')
-    print("""
+    print(blue + f"""
 
                                                                                       
  _____             _____               _    _____ _____ _____ _____ _____ _____ _____ 
@@ -26,18 +35,25 @@ async def hypesquadchanger():
       |___|_|             |_|                                                         
 
 
+{magenta} BRAVERY : 1
+{lred} BRILLANCE : 2
+{cyan} BALANCE : 3
 """)
-    hypetoken = input(f"\n{red}Your token account: {Fore.RESET}") # OBLIGATOIRE 
-    print(red + f"\n[1] Bravery\n[2] Briliance\n[3] Balance\n")
-    hypesquad = input(f"[#] Choice : {Fore.RESET}")
-    headersosat = {
-        'Authorization': str(hypetoken)
-    }
+    token = input(blue + '\nYOUR ACCOUNT TOKEN : ')
+    cli = seizcord.Client(token=f'{token}')
 
-    payloadsosat = {
-        'house_id': str(hypesquad)
-    }
-    time.sleep(1)
-    rep = requests.session().post("https://discord.com/api/v8/hypesquad/online", json=payloadsosat, headers=headersosat)
+    choix = float(input(lred + 'HOUSE : '))
 
-    input(red + '\nFINISH! ')
+    if choix == 1:
+        cli.setHypeSquad(houseid=1)
+
+    elif choix == 2:
+        cli.setHypeSquad(houseid=2)
+
+    elif choix == 3:
+        cli.setHypeSquad(houseid=3)
+
+
+
+
+    input(red + '\n\nPRESS ENTER TO RETURN TO MENU')
