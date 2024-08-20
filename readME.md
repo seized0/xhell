@@ -12,7 +12,6 @@
 
 Completely open source project
 
-test
 
 # 💳  CREDITS 💳
 
