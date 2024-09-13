@@ -1,16 +1,18 @@
+################################################################
+
+            # discord : uhq.s
+            # tiktok  : https://tiktok.com/@uhq.s
+            # server  : https://discord.gg/wyUuYr9DEN
+            # dev     : uhq.s
+            # owner   : uhq.s
+            # github  : https://github.com/seized0
+
+#################################################################
+
 from utilities.Program.utils.utils import *
 from bs4 import BeautifulSoup as htmlparser
 import requests
 import os
-################################################################
-
-            # discord : uhq.s
-            # tiktok  : https://tiktok.com/@paiementsecurise
-            # server  : https://discord.gg/wyUuYr9DEN
-            # dev     : uhq.s
-            # owner   : uhq.s
-
-################################################################
 
 green = Fore.GREEN
 red = Fore.RED
@@ -57,6 +59,6 @@ __________.__                           .__                 __
 
     [print(f"{info}: {infos[info]}") for info in infos]
 
-    input(cyan +'\n\nPRESS ENTER TO RETURN TO MENU')
+    input(cyan + '\n\n[!] PRESS ENTER TO RETURN TO MENU')
     
     

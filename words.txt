@@ -10,3 +10,7 @@ app
 application
 login
 register
+root
+user
+setting
+settings

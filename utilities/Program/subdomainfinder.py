@@ -1,22 +1,3 @@
-from utilities.Program.utils.utils import *
-import requests
- 
-# DOC : https://developer.mozilla.org/fr/docs/Web/HTTP/Status
-################################################################
-
-            # discord : uhq.s
-            # tiktok  : https://tiktok.com/@paiementsecurise
-            # serveur : https://discord.gg/wyUuYr9DEN
-            # dev : uhq.s
-            # owner : uhq.s
-
-################################################################
-green = Fore.GREEN
-red = Fore.RED
-magenta = Fore.MAGENTA
-blue = Fore.BLUE
-reset = Fore.WHITE
-lmagenta = Fore.LIGHTMAGENTA_EX
 ################################################################
 
             # discord : uhq.s
@@ -24,8 +5,21 @@ lmagenta = Fore.LIGHTMAGENTA_EX
             # server  : https://discord.gg/wyUuYr9DEN
             # dev     : uhq.s
             # owner   : uhq.s
+            # github  : https://github.com/seized0
 
-################################################################
+#################################################################
+
+from utilities.Program.utils.utils import *
+import requests
+ 
+# DOC : https://developer.mozilla.org/fr/docs/Web/HTTP/Status
+
+green = Fore.GREEN
+red = Fore.RED
+magenta = Fore.MAGENTA
+blue = Fore.BLUE
+reset = Fore.WHITE
+lmagenta = Fore.LIGHTMAGENTA_EX
 
 
 banner = lmagenta + r"""
@@ -82,5 +76,5 @@ async def subdomainfinder():
         elif response.status_code ==502:
             print(red + f'502 Bad Gateway FOR : {urls[i]}')
     print(reset)
-    input(lmagenta + '\nPRESS ENTER TO RETURN TO MENU')
+    input(lmagenta + '\n[!] PRESS ENTER TO RETURN TO MENU')
 

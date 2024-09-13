@@ -1,9 +1,3 @@
-from utilities.Program.utils.utils import *
-import seizcord
-import random
-import time
-import requests
-
 ################################################################
 
             # discord : uhq.s
@@ -11,8 +5,16 @@ import requests
             # server  : https://discord.gg/wyUuYr9DEN
             # dev     : uhq.s
             # owner   : uhq.s
+            # github  : https://github.com/seized0
 
-################################################################
+#################################################################
+
+from utilities.Program.utils.utils import *
+import seizcord
+import random
+import time
+import requests
+
 
 green = Fore.GREEN
 red = Fore.RED
@@ -96,5 +98,5 @@ async def accnuker():
 
 
 
-    print(red + '\n\nNUKED ACCOUNT')
-    input(blue +'\n\n\nPRESS ENTER TO RETURN TO MENU')
+    print(red + '\n\n[+] NUKED ACCOUNT')
+    input(blue +'\n\n\n[!] PRESS ENTER TO RETURN TO MENU')

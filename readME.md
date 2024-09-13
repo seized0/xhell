@@ -1,9 +1,3 @@
-<p align="center"> 
-  <kbd>
-<img src="https://media.discordapp.net/attachments/1273029746103554092/1274682475704221766/Capture_decran_2024-08-18_115941.png?ex=66c32410&is=66c1d290&hm=261a052929504367d82737ea23d27b98b7f601e65c6eeb06297cf7218004e2c9&=&format=webp&quality=lossless"></img>
-  </kbd>
-</p>
-
 # 🚨 DISCLAIMER 🚨
 
 **I AM NOT RESPONSIBLE FOR YOUR ACTIONS.**
@@ -26,44 +20,63 @@ IDEA                 : uhq.s
 
 MY DISCORD : uhq.s
 
-DISCORD SERVER : https://discord.gg/wyUuYr9DEN
+DISCORD SERVER : https://discord.gg/xhell
 
 
 # 🥇 FIRST RUN 🥇
 
 1. Start install.bat for installing  requieremnts.
-2. Start start.bat for run xhell.py
+2. Start start.bat 
+
 
 
 
 # 📖 FUNCTION 📖
 
-1.  SUBDOMAIN FINDER  : To found subdomains quite quickly
-2.  SRC DUMPER        : To retrieve the source code of an executable file that was originally a python file
-3.  IP LOOKUP         : To lookup a IP
-4.  PHONE LOOKUP      : To lookup a phone number
-5.  ACCOUNT NUKER     : To nuke an account
-6.  HYPESQUAD CHANGER : To change hypesquad badge
-7.  DM ALL            : To send a message to all your friends
-8.  STATUS ROTATOR    : To change your discord status
-9.  USERNAME SEARCHER : To find a username on differents website
-10. ID TO TOKEN       : To find the FIRST part of a discord token with id
+1. SUBDOMAIN FINDER
+2. SRC DUMPER
+3. IP LOOKUP
+4. PHONE LOOKUP
+5. PY TO EXE
+6. OBFUSCATOR
+7. DOMAIN LOOKUP
+8.
+9. USERNAME TRACKER
+10. DOX TOOL
+11. WEBHOOK SPAMMER
+12. WEBHOOK DELETER
+13. TOKEN LEAVER
+14. TOKEN CHECKER
+15. ACCOUNT NUKER
+16. HYPESQUAD CHANGER
+17. ID TO TOKEN
+18. STATUS CHANGER
+19. SEIZURE MODE
+20. RATE LIMIT
+
+0. CREDITS
 
 
-# CHANGELOG V2
+# CHANGELOG V3
 
 
 **REMOVED**
 
-- HWID SPOOFER (reason : don't work)
-- UUID SPOOFER (reason : don't work)
+-HWID SPOOFER (reason : don't work)
+-UUID SPOOFER (reason : don't work)
+-DMALL (reason : don't work)
 
 
 **ADDED**
 
-- IPLOOKUP
-- PHONELOOKUP
-- USERNAME SEARCHER
-- STATUS ROTATOR
-- ID TO TOKEN
+-NEW OBFUSCATOR
+-DOMAIN LOOKUP
+-DOX TOOL
+-WEBHOOK SPAMMER
+-WEBHOOK DELETER
+-TOKEN LEAVER
+-TOKEN CHECKER
+-STATUS CHANGER
+-SEIZURE MODE
+-RATE LIMIT
 

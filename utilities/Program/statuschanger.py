@@ -1,3 +1,14 @@
+################################################################
+
+            # discord : uhq.s
+            # tiktok  : https://tiktok.com/@uhq.s
+            # server  : https://discord.gg/wyUuYr9DEN
+            # dev     : uhq.s
+            # owner   : uhq.s
+            # github  : https://github.com/seized0
+
+#################################################################
+
 from utilities.Program.utils.utils import *
 import seizcord
 import time
@@ -12,15 +23,6 @@ yellow = Fore.YELLOW
 cyan = Fore.CYAN
 lgreen = Fore.LIGHTGREEN_EX
 
-################################################################
-
-            # discord : uhq.s
-            # tiktok  : https://tiktok.com/@uhq.s
-            # server  : https://discord.gg/wyUuYr9DEN
-            # dev     : uhq.s
-            # owner   : uhq.s
-
-################################################################
 
 async def statuschanger():
     os.system('cls')

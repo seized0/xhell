@@ -1,16 +1,19 @@
+################################################################
+
+            # discord : uhq.s
+            # tiktok  : https://tiktok.com/@uhq.s
+            # server  : https://discord.gg/wyUuYr9DEN
+            # dev     : uhq.s
+            # owner   : uhq.s
+            # github  : https://github.com/seized0
+
+#################################################################
+
 from utilities.Program.utils.utils import *
 import requests
 
 
-################################################################
 
-            # discord : uhq.s
-            # tiktok  : https://tiktok.com/@paiementsecurise
-            # server  : https://discord.gg/wyUuYr9DEN
-            # dev     : uhq.s
-            # owner   : uhq.s
-
-################################################################
 green = Fore.GREEN
 red = Fore.RED
 magenta = Fore.MAGENTA
@@ -61,5 +64,5 @@ async def iplookup():
         print(red + f"ERREUR : {str(e)}")
 
 
-    input(lred + '\n\nPRESS ENTER TO RETURN TO MENU')
+    input(lred + '\n\n[!] PRESS ENTER TO RETURN TO MENU')
 

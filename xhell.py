@@ -1,6 +1,5 @@
 from utilities.Program.utils.utils import *
 
-
 ################################################################
 
             # discord : uhq.s
@@ -8,14 +7,15 @@ from utilities.Program.utils.utils import *
             # server  : https://discord.gg/wyUuYr9DEN
             # dev     : uhq.s
             # owner   : uhq.s
+            # github  : https://github.com/seized0
 
 ################################################################
 
 async def menu2():
     os.system('cls')
-    print(Colorate.Vertical(Colors.red_to_yellow, f'{bannermenu2}'))
+    print(Colorate.Vertical(Colors.blue_to_purple, f'{bannermenu2}'))
 
-    choice = input(Fore.RED + '\n[#] CHOICE : ')
+    choice = input(Fore.RED + '[#] CHOICE : ')
 
     if choice == "0":
         await credits.credits()
@@ -23,71 +23,55 @@ async def menu2():
 
     
     elif choice == "11":
-        os.system('cls')
-        print(red + 'SOON...')
-        input(blue + '\n\nPRESS ENTER TO RETURN TO MENU')
+        await webhookspammer.webhookspammer()
         await menu2()
 
     elif choice == "12":
-        os.system('cls')
-        print(red + 'SOON...')
-        input(blue + '\n\nPRESS ENTER TO RETURN TO MENU')
+        await webhooksdeleter.webhookdeleter()
         await menu2()
 
     elif choice == "13":
-        os.system('cls')
-        print(red + 'SOON...')
-        input(blue + '\n\nPRESS ENTER TO RETURN TO MENU')
+        await tokenleaver.tokenleaver()
         await menu2()
 
     elif choice == "14":
-        os.system('cls')
-        print(red + 'SOON...')
-        input(blue + '\n\nPRESS ENTER TO RETURN TO MENU')
+        await tokenchecker.tokenchecker()
         await menu2()
 
     elif choice == "15":
-        os.system('cls')
-        print(red + 'SOON...')
-        input(blue + '\n\nPRESS ENTER TO RETURN TO MENU')
+        await accnuker.accnuker()
         await menu2()
 
     elif choice == "16":
-        os.system('cls')
-        print(red + 'SOON...')
-        input(blue + '\n\nPRESS ENTER TO RETURN TO MENU')
+        await hypesquadchanger.hypesquadchanger()
         await menu2()
 
     elif choice == "17":
-        os.system('cls')
-        print(red + 'SOON...')
-        input(blue + '\n\nPRESS ENTER TO RETURN TO MENU')
+        await idtotoken.idtotoken()
         await menu2()
 
     elif choice == "18":
-        os.system('cls')
-        print(red + 'SOON...')
-        input(blue + '\n\nPRESS ENTER TO RETURN TO MENU')
+        await statuschanger.statuschanger()
         await menu2()
 
     elif choice == "19":
-        os.system('cls')
-        print(red + 'SOON...')
-        input(blue + '\n\nPRESS ENTER TO RETURN TO MENU')
+        await seizuremode.flashbang()
         await menu2()
 
     elif choice == "20":
-        os.system('cls')
-        print(red + 'SOON...')
-        input(blue + '\n\nPRESS ENTER TO RETURN TO MENU')
+        await ratelimit.ratelimit()
         await menu2()
 
 
-    elif choice == "00":
+    elif choice =="00":
         os.system('cls')
-        print(blue + 'WAIT....')
-        time.sleep(1)
+        Write.Print(f"\n\n\n\n\n\n\n\n\n\n\n\n                                                 PLEASE WAIT...", Colors.red_to_yellow, interval=0.009)
+        time.sleep(0.5)
         pass
+
+    else:
+        input(red +'[!] ERROR : INVALID CHOICE')
+        await menu2()
 
 
 contitle(txt)
@@ -96,7 +80,7 @@ contitle(txt)
 def clear():
     os.system('cls')
 
-allbanner = [banner, banner1, banner2]
+allbanner = [banner, banner1, banner2, banner3]
 bannerchoice = random.choice(allbanner)
 
 
@@ -123,30 +107,31 @@ async def menu():
             await phonelookup.phonelookup()
 
         elif choice =="5":
-            await accnuker.accnuker()
+            await py2exe.py2exe()
 
         elif choice =="6":
-            await hypesquadchanger.hypesquadchanger()
+            await obf.obf()
 
         elif choice =="7":
-            await dmall.dmall()
+            await domainlookup.domainlookup()
 
         elif choice =="8":
-            await statuschanger.statuschanger()
+            await toolinfo.toolinfo()
 
         elif choice =="9":
             await usernamesearcher.usernamesearcher()
 
         elif choice =="10":
-            await idtotoken.idtotoken()
+            await doxtool.doxtool()
         
         elif choice =="0":
             await credits.credits()
 
+     
         elif choice =="00":
             os.system('cls')
-            print(blue + 'WAIT....')
-            time.sleep(1)
+            Write.Print(f"\n\n\n\n\n\n\n\n\n\n\n\n                                                 PLEASE WAIT...", Colors.blue_to_purple, interval=0.009)
+            time.sleep(0.5)
             await menu2()
 
 

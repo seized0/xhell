@@ -1,14 +1,16 @@
-from utilities.Program.utils.utils import *
-import subprocess
 ################################################################
 
             # discord : uhq.s
-            # tiktok  : https://tiktok.com/@paiementsecurise
-            # serveur : https://discord.gg/wyUuYr9DEN
-            # dev : uhq.s
-            # owner : uhq.s
+            # tiktok  : https://tiktok.com/@uhq.s
+            # server  : https://discord.gg/wyUuYr9DEN
+            # dev     : uhq.s
+            # owner   : uhq.s
+            # github  : https://github.com/seized0
 
-################################################################
+#################################################################
+
+from utilities.Program.utils.utils import *
+import subprocess
 
 blue = Fore.BLUE
 magenta = Fore.MAGENTA

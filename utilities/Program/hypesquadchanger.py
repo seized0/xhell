@@ -1,3 +1,14 @@
+################################################################
+
+            # discord : uhq.s
+            # tiktok  : https://tiktok.com/@uhq.s
+            # server  : https://discord.gg/wyUuYr9DEN
+            # dev     : uhq.s
+            # owner   : uhq.s
+            # github  : https://github.com/seized0
+
+#################################################################
+
 from utilities.Program.utils.utils import *
 import seizcord
 import requests
@@ -13,15 +24,7 @@ yellow = Fore.YELLOW
 lgreen = Fore.LIGHTGREEN_EX
 cyan = Fore.CYAN
 
-################################################################
 
-            # discord : uhq.s
-            # tiktok  : https://tiktok.com/@uhq.s
-            # server  : https://discord.gg/wyUuYr9DEN
-            # dev     : uhq.s
-            # owner   : uhq.s
-
-################################################################
 
 async def hypesquadchanger():
     os.system('cls')
@@ -56,4 +59,4 @@ async def hypesquadchanger():
 
 
 
-    input(red + '\n\nPRESS ENTER TO RETURN TO MENU')
+    input(red + '\n\n[!] PRESS ENTER TO RETURN TO MENU')
