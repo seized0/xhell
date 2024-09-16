@@ -13,7 +13,7 @@ jobs:
       - name: Send message to webhook
         uses: actions/http-client@v1
         with:
-          url: 'https://discord.com/api/webhooks/1285283849986637896/fL9XaMhTWy5gJA_FmLq0ZG35wPum-2Y-1nPRWbtbFkUc8uMMsmlZqtHWG6LQ8dEx2mDr' 
+          url: ${{ secrets.WEBHOOK_URL }}
           method: 'POST'
           headers: |
             Content-Type: application/json
