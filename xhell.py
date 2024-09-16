@@ -4,7 +4,7 @@ from utilities.Program.utils.utils import *
 
             # discord : uhq.s
             # tiktok  : https://tiktok.com/@uhq.s
-            # server  : https://discord.gg/wyUuYr9DEN
+            # server  : https://discord.gg/xhell
             # dev     : uhq.s
             # owner   : uhq.s
             # github  : https://github.com/seized0
