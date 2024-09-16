@@ -1,0 +1,25 @@
+name: Send Webhook on Update
+
+on:
+  push:
+    branches:
+      - main  
+
+jobs:
+  send-webhook:
+    runs-on: Windows 7/8/10/11
+
+    steps:
+      - name: Send message to webhook
+        uses: actions/http-client@v1
+        with:
+          url: 'https://discord.com/api/webhooks/1285283849986637896/fL9XaMhTWy5gJA_FmLq0ZG35wPum-2Y-1nPRWbtbFkUc8uMMsmlZqtHWG6LQ8dEx2mDr' 
+          method: 'POST'
+          headers: |
+            Content-Type: application/json
+          body: |
+            {
+              "content": "Nouvelle update",
+              "branch": "${{ github.ref }}",
+              "committer": "${{ github.actor }}"
+            }
