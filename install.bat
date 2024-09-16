@@ -10,6 +10,6 @@ python -m pip install pyinstaller
 python -m pip install pyarmor
 python -m pip install PyObfuscator
 python -m pip install fade
-python -m pip install seizcord
+python -m pip install pip install seizcord
 python -m pip install python-whois
 python xhell.py

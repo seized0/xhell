@@ -59,7 +59,7 @@ async def menu2():
         await menu2()
 
     elif choice == "20":
-        await ratelimit.ratelimit()
+        await dmall.dmall()
         await menu2()
 
 
