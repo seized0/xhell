@@ -14,5 +14,3 @@ root
 user
 setting
 settings
-test
-administrator

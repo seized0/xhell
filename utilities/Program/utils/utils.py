@@ -14,7 +14,7 @@ from pystyle import *
 from colorama import *
 import os
 import time
-from utilities.Program import phonelookup, toolinfo,subdomainfinder, srcdumper, accnuker, iplookup, credits,hypesquadchanger, usernamesearcher, statuschanger, idtotoken, webhooksdeleter, webhookspammer,tokenchecker,py2exe,obf,tokenleaver,seizuremode,domainlookup,doxtool,dmall
+from utilities.Program import accountcleaner,frienddeleter, groupleaver,dmdeleter, friendsidscrapper,phonelookup, toolinfo,subdomainfinder, srcdumper, accnuker, iplookup, credits,hypesquadchanger, usernamesearcher, statuschanger, idtotoken, webhooksdeleter, webhookspammer,tokenchecker,py2exe,obf,tokenleaver,domainlookup,doxtool,dmall
 import ctypes
 import sys
 import random
@@ -43,7 +43,7 @@ lblue = Fore.LIGHTBLUE_EX
 def contitle(title):
     ctypes.windll.kernel32.SetConsoleTitleW(title)
 
-txt = "⭐ By uhq.s    |    Xhell V3 🐬"
+txt = "⭐ By uhq.s    |    Xhell v3.1 🐬"
 
 
 banner = """
@@ -156,15 +156,44 @@ bannermenu2 = rf"""
 [+] https://github.com/seized0/xhell                                       
     ════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
                                 
-              {blue}[11] WEBHOOK SPAMMER         {cyan}[15] ACCOUNT NUKER          {lmagenta}[19] SEIZURE MODE
+              {blue}[11] WEBHOOK SPAMMER         {cyan}[15] ACCOUNT NUKER          {lmagenta}[19] GROUP LEAVER
                                                                                                                    
-              {blue}[12] WEBHOOK DELETER         {cyan}[16] HYPESQUAD CHANGER      {lmagenta}[20] RATE LIMIT   
+              {blue}[12] WEBHOOK DELETER         {cyan}[16] HYPESQUAD CHANGER      {lmagenta}[20] DM ALL  
                                                                                                                     
               {blue}[13] TOKEN LEAVER            {cyan}[17] ID TO TOKEN            {lmagenta}[0] CREDITS  
                                                                                                                    
-              {blue}[14] TOKEN CHECKER           {cyan}[18] STATUS CHANGER         {cyan}[00] <- PREV PAGE 
+              {blue}[14] TOKEN CHECKER           {cyan}[18] STATUS CHANGER         {cyan}[00] NEXT PAGE -->
+                                                                       {cyan}[01] <-- PREV PAGE
            
     ════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
 
 """
 
+bannermenu3 = rf"""
+
+                               ___    ___ ___  ___  _______   ___       ___          
+                              |\  \  /  /|\  \|\  \|\  ___ \ |\  \     |\  \         
+                              \ \  \/  / | \  \\\  \ \   __/|\ \  \    \ \  \        
+                               \ \    / / \ \   __  \ \  \_|/_\ \  \    \ \  \       
+                                /     \/   \ \  \ \  \ \  \_|\ \ \  \____\ \  \____  
+                               /  /\   \    \ \__\ \__\ \_______\ \_______\ \_______\
+                              /__/ /\ __\    \|__|\|__|\|_______|\|_______|\|_______|
+                              |__|/ \|__|                                            
+
+[!] https://tiktok.com/@uhq.s
+                                                    discord.gg/xhell               
+                                                  [ DISCORD / OTHERS ]
+[+] https://github.com/seized0/xhell                                       
+    ════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+                                
+              [21] ID SCRAPPER        [25]           [29] 
+                                                                                                                   
+              [22] DM DELETER         [26]           [30]   
+                                                                                                                    
+              [23] FRIENDS DELETER    [27]           [0] CREDITS  
+                                                                                                                   
+              [24] ACCOUNT CLEANER    [28]           [00] <-- PREV PAGE 
+           
+    ════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+
+"""

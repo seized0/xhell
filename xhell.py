@@ -4,12 +4,52 @@ from utilities.Program.utils.utils import *
 
             # discord : uhq.s
             # tiktok  : https://tiktok.com/@uhq.s
-            # server  : https://discord.gg/xhell
+            # server  : https://discord.gg/wyUuYr9DEN
             # dev     : uhq.s
             # owner   : uhq.s
             # github  : https://github.com/seized0
 
 ################################################################
+
+async def menu3():
+    os.system('cls')
+    print(Colorate.Horizontal(Colors.blue_to_red, f'{bannermenu3}'))
+
+    choice = input(Fore.RED + '\n\n[#] CHOICE : ')
+
+    if choice == '0':
+        await credits.credits()
+        await menu3()
+
+    elif choice == '00':
+        os.system('cls')
+        Write.Print(f"\n\n\n\n\n\n\n\n\n\n\n\n                                                 PLEASE WAIT...", Colors.purple_to_blue, interval=0.009)
+        time.sleep(0.5)
+        await menu2()
+
+    elif choice =='21':
+        await friendsidscrapper.idscrapper()
+        await menu3()
+
+    elif choice =='22':
+        await dmdeleter.dmdeleter()
+        await menu3()
+
+    elif choice =='23':
+        await dmdeleter.dmdeleter()
+        await menu3()
+
+    elif choice =='24':
+        await accountcleaner.cleaner()
+        await menu3()
+
+    else:
+        input(red +'[!] ERROR : INVALID CHOICE')
+        await menu3()
+
+
+    
+
 
 async def menu2():
     os.system('cls')
@@ -55,7 +95,7 @@ async def menu2():
         await menu2()
 
     elif choice == "19":
-        await seizuremode.flashbang()
+        await groupleaver.groupLeaver()
         await menu2()
 
     elif choice == "20":
@@ -65,9 +105,16 @@ async def menu2():
 
     elif choice =="00":
         os.system('cls')
-        Write.Print(f"\n\n\n\n\n\n\n\n\n\n\n\n                                                 PLEASE WAIT...", Colors.red_to_yellow, interval=0.009)
-        time.sleep(0.5)
-        pass
+        Write.Print(f"\n\n\n\n\n\n\n\n\n\n\n\n                                                 PLEASE WAIT...", Colors.orange, interval=0.009)
+        time.sleep(0.2)
+        await menu3()
+
+    elif choice =='01':
+            os.system('cls')
+            Write.Print(f"\n\n\n\n\n\n\n\n\n\n\n\n                                                 PLEASE WAIT...", Colors.red_to_yellow, interval=0.009)
+            time.sleep(0.2)
+            await menu()
+
 
     else:
         input(red +'[!] ERROR : INVALID CHOICE')
