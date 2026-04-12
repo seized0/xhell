@@ -4,7 +4,6 @@ python -m pip install pydumpck
 python -m pip install pystyle
 python -m pip install seizhooks
 python -m pip install bs4
-python -m pip install base64
 python -m pip install cx-Freeze
 python -m pip install pyinstaller
 python -m pip install pyarmor

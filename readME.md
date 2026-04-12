@@ -65,19 +65,6 @@ DISCORD SERVER : https://discord.gg/xhell
 0. CREDITS
 
 
-# CHANGELOG v3.1
+# CHANGELOG v3.2
 
-
-**REMOVED**
-
-- SEIZURE MODE (reason : rate limit your account)
-
-
-**ADDED**
-
-- GROUP LEAVER
-- ID SCRAPPER
-- DM DELETER
-- FRIENDS DELETER
-- ACCOUNT CLEANER
-
+FASTER
